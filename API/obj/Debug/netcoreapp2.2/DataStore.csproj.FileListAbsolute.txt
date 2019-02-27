@@ -1,0 +1,13 @@
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\bin\Debug\netcoreapp2.2\DataStore.deps.json
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\bin\Debug\netcoreapp2.2\DataStore.runtimeconfig.json
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\bin\Debug\netcoreapp2.2\DataStore.runtimeconfig.dev.json
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\bin\Debug\netcoreapp2.2\DataStore.dll
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\obj\Debug\netcoreapp2.2\DataStore.csproj.CoreCompileInputs.cache
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\obj\Debug\netcoreapp2.2\DataStore.RazorAssemblyInfo.cache
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\obj\Debug\netcoreapp2.2\DataStore.RazorAssemblyInfo.cs
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\obj\Debug\netcoreapp2.2\DataStore.AssemblyInfoInputs.cache
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\obj\Debug\netcoreapp2.2\DataStore.AssemblyInfo.cs
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\obj\Debug\netcoreapp2.2\DataStore.RazorTargetAssemblyInfo.cache
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\bin\Debug\netcoreapp2.2\DataStore.pdb
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\obj\Debug\netcoreapp2.2\DataStore.dll
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\obj\Debug\netcoreapp2.2\DataStore.pdb

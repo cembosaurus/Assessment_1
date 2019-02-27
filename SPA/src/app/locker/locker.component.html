@@ -1,0 +1,53 @@
+
+
+
+  <div class="container mt-5">
+
+      <div style="text-align: center">
+        <h1>Get lockers..</h1>
+        <div class="text-center">
+          <button class="btn btn-primary btn-lg mr-2" (click)="getLockers()">Get lockers</button>
+          <button class="btn btn-primary btn-lg mr-2" (click)="clearLockers()">Clear</button>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-4">
+
+              <table class="mt-5">
+                  
+                  <tr *ngFor="let location of lockers">
+
+                    <td>
+                      <span class="location_s">{{location.name}}:</span>
+                    </td>
+
+                    <td>
+                      <tr><td class="location_s"><br></td></tr>
+                      <tr *ngFor="let bank of location.locker_banks">
+
+                        <td>
+                            <span class="lockerBank_s">{{bank.name}}:</span>
+                            <tr *ngFor="let loc of bank.lockers">
+
+                                <td>
+                                    <span  style="margin-left: 20px;" class="locker_s">{{loc.name}}</span>
+                                </td>
+    
+                              </tr>
+                        </td>
+
+
+                      </tr>
+
+                    </td>
+
+                  </tr>
+
+                </table>
+
+          </div>
+        </div>
+      </div>
+    </div>

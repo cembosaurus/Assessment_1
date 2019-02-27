@@ -1,0 +1,30 @@
+.location_s {
+    color: rgb(233, 146, 146);
+    font-size: 40px;
+}
+
+.lockerBank_s {
+    color: rgb(147, 147, 211);
+    font-size: 30px;
+}
+
+.locker_s {
+    color: rgb(132, 190, 132);
+    font-size: 20px;
+}
+
+td {
+    vertical-align: top;
+    text-align: left;
+  } 
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 4px 4px rgb(235, 235, 235);
+}
+
+table {
+    
+    padding: 30px;
+}
