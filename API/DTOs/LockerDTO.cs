@@ -7,8 +7,8 @@ namespace DataStore.DTOs
 {
     public class LockerDTO
     {
-        public int? id { get; set; }
-        public int lockerBankId { get; set; }
-        public string name { get; set; }
+        public int? Id { get; set; }
+        public int LockerBankId { get; set; }
+        public string Name { get; set; }
     }
 }

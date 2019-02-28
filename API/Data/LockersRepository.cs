@@ -1,7 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DataStore.DTOs;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -19,20 +17,29 @@ namespace DataStore.Data
 
         public async Task<object> Lockers()
         {
-            var result = await _context.Locations.Select(a => new
-            {
-                a.Id,
-                a.Name,
-                locker_banks = a.LockerBanks
-                .Select(b => new
+
+            var result = await
+                _context.Locations.Select(loc => new
                 {
-                    b.Id,
-                    b.LocationId,
-                    b.Name,
-                    lockers = b.Lockers
-                .Select(c => new { c.Id, c.LockerBankId, c.Name })
-                })
-            }).ToListAsync();
+                    Id = loc.Id,
+                    Name = loc.Name,
+                    LockerBanks = loc.LockerBanks
+                    .Select( lb => new LockerBankDTO{
+                        Id = lb.Id,
+                        Name = lb.Name})
+                        .GroupJoin( _context.Lockers, 
+                        lb => lb.Id, 
+                        l => l.LockerBankId, 
+                        (bank,lockers) => new {
+                            Id = bank.Id,
+                            Name = bank.Name,
+                            Lockers = lockers
+                            .Select(l => new LockerDTO{
+                                Id = l.Id,
+                                Name = l.Name
+                            })
+                        })
+                }).ToListAsync();
 
 
             return result;
