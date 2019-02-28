@@ -1,4 +1,5 @@
 ﻿using DataStore.DTOs;
+using DataStore.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
@@ -22,24 +23,20 @@ namespace DataStore.Data
                 _context.Locations.Select(loc => new
                 {
                     Id = loc.Id,
-                    Name = loc.Name,
-                    LockerBanks = loc.LockerBanks
-                    .Select( lb => new LockerBankDTO{
-                        Id = lb.Id,
-                        Name = lb.Name})
-                        .GroupJoin( _context.Lockers, 
-                        lb => lb.Id, 
-                        l => l.LockerBankId, 
-                        (bank,lockers) => new {
-                            Id = bank.Id,
-                            Name = bank.Name,
-                            Lockers = lockers
-                            .Select(l => new LockerDTO{
-                                Id = l.Id,
-                                Name = l.Name
-                            })
-                        })
-                }).ToListAsync();
+                    Name = loc.Name
+                })
+                .GroupJoin(_context.LockerBanks, l => l.Id, lb => lb.LocationId, (a, b) => new { a.Id, a.Name, LockerBanks = b
+                    .GroupJoin(_context.Lockers, lb => lb.Id, l => l.LockerBankId, (c, d) => new { c.Id, c.Name, Lockers = d.Select(l => new { l.Id, l.Name})
+                    })
+                })
+                .ToListAsync();
+                    
+                    
+                    
+                    
+                    
+                    
+
 
 
             return result;

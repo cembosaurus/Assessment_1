@@ -11,3 +11,4 @@ C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcore
 C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcoreapp2.2\DataStore.UnitTest.AssemblyInfo.cs
 C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcoreapp2.2\DataStore.UnitTest.dll
 C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcoreapp2.2\DataStore.UnitTest.pdb
+C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcoreapp2.2\DataStore.UnitTest.csprojAssemblyReference.cache
