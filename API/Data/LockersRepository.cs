@@ -16,6 +16,7 @@ namespace DataStore.Data
             _context = context;
         }
 
+
         public async Task<object> Lockers()
         {
 
@@ -31,13 +32,6 @@ namespace DataStore.Data
                 })
                 .ToListAsync();
                     
-                    
-                    
-                    
-                    
-                    
-
-
 
             return result;
         }
