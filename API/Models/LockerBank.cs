@@ -15,6 +15,6 @@ namespace DataStore.Models
         public string Name { get; set; }
 
 
-        public IList<Locker> Lockers { get; set; }
+        public IEnumerable<Locker> Lockers { get; set; }
     }
 }

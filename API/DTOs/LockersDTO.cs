@@ -7,7 +7,7 @@ namespace DataStore.DTOs
 {
     public class LockersDTO
     {
-        public LocationDTO Location { get; set; }
+        public IEnumerable<LocationDTO> Locations { get; set; }
 
     }
 }

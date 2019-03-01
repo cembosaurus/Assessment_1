@@ -10,6 +10,6 @@ namespace DataStore.DTOs
         public int? Id { get; set; }
         public int LocationId { get; set; }
         public string Name { get; set; }
-        public List<LockerDTO> lockers { get; set; }
+        public IEnumerable<LockerDTO> Lockers { get; set; }
     }
 }
