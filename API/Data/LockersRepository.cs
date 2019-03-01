@@ -34,7 +34,10 @@ namespace DataStore.Data
                         {
                             Id = a.Id,
                             Name = a.Name,
-                            LockerBanks = b.Select(s => new { s.Id, s.LocationId, s.Name })
+                            LockerBanks = b.Select(s => new {
+                                s.Id, s.LocationId,
+                                s.Name
+                            })
                                            .GroupJoin(
                                                _context.Lockers,
                                                loba => loba.Id,
@@ -44,7 +47,11 @@ namespace DataStore.Data
                                                    Id = c.Id,
                                                    Name = c.Name,
                                                    LocationId = c.LocationId,
-                                                   Lockers = d.Select(s => new LockerDTO { Id = s.Id, LockerBankId = s.LockerBankId, Name = s.Name })
+                                                   Lockers = d.Select(s => new LockerDTO {
+                                                       Id = s.Id,
+                                                       LockerBankId = s.LockerBankId,
+                                                       Name = s.Name
+                                                   })
                                                }
                                            )
                         }
