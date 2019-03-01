@@ -26,7 +26,6 @@ namespace DataStore.Data
                 Locations = await
                     _context.Locations
                     .GroupJoin(
-
                         _context.LockerBanks,
                         loc => loc.Id,
                         lb => lb.LocationId,
@@ -38,29 +37,27 @@ namespace DataStore.Data
                                 s.Id, s.LocationId,
                                 s.Name
                             })
-                                           .GroupJoin(
-                                               _context.Lockers,
-                                               loba => loba.Id,
-                                               lk => lk.LockerBankId,
-                                               (c, d) => new LockerBankDTO
-                                               {
-                                                   Id = c.Id,
-                                                   Name = c.Name,
-                                                   LocationId = c.LocationId,
-                                                   Lockers = d.Select(s => new LockerDTO {
-                                                       Id = s.Id,
-                                                       LockerBankId = s.LockerBankId,
-                                                       Name = s.Name
-                                                   })
-                                               }
-                                           )
+                            .GroupJoin(
+                                _context.Lockers,
+                                loba => loba.Id,
+                                lk => lk.LockerBankId,
+                                (c, d) => new LockerBankDTO
+                                {
+                                    Id = c.Id,
+                                    Name = c.Name,
+                                    LocationId = c.LocationId,
+                                    Lockers = d.Select(s => new LockerDTO {
+                                        Id = s.Id,
+                                        LockerBankId = s.LockerBankId,
+                                        Name = s.Name
+                                    })
+                                }
+                            )
                         }
                     )
                     .ToListAsync()
 
             };
-
-
 
             return result;
         }
