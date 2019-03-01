@@ -5,9 +5,13 @@ C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\bin\Debug\netcore
 C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\bin\Debug\netcoreapp2.2\DataStore.UnitTest.runtimeconfig.json
 C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\bin\Debug\netcoreapp2.2\DataStore.UnitTest.runtimeconfig.dev.json
 C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\bin\Debug\netcoreapp2.2\DataStore.UnitTest.dll
-C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\bin\Debug\netcoreapp2.2\DataStore.UnitTest.pdb
+C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\bin\Debug\netcoreapp2.2\DataStore.dll
+C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\bin\Debug\netcoreapp2.2\DataStore.pdb
+C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcoreapp2.2\DataStore.UnitTest.csprojAssemblyReference.cache
 C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcoreapp2.2\DataStore.UnitTest.csproj.CoreCompileInputs.cache
 C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcoreapp2.2\DataStore.UnitTest.AssemblyInfoInputs.cache
 C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcoreapp2.2\DataStore.UnitTest.AssemblyInfo.cs
+C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcoreapp2.2\DataStore.UnitTest.csproj.CopyComplete
+C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\bin\Debug\netcoreapp2.2\DataStore.UnitTest.pdb
 C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcoreapp2.2\DataStore.UnitTest.dll
 C:\Users\cembo\source\repos\TZ_Limited_TEST\DataStore.UnitTest\obj\Debug\netcoreapp2.2\DataStore.UnitTest.pdb

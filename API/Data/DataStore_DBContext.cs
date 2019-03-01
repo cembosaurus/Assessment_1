@@ -11,7 +11,7 @@ using Users.Models;
 
 namespace DataStore.Data
 {
-    public class DataStore_DBContext : DbContext
+    public class DataStore_DBContext : DbContext, IDataStore_DBContext
     {
 
         public DataStore_DBContext(DbContextOptions<DataStore_DBContext> options) : base(options)

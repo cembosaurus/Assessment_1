@@ -35,7 +35,8 @@ namespace DataStore.Data
                             Name = a.Name,
                             LockerBanks = b.Select(s => new
                             {
-                                s.Id, s.LocationId,
+                                s.Id,
+                                s.LocationId,
                                 s.Name
                             })
                             .GroupJoin(
