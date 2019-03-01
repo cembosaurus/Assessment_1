@@ -14,7 +14,6 @@ namespace DataStore.Models
 
         public string Name { get; set; }
 
-
         public IEnumerable<Locker> Lockers { get; set; }
     }
 }
