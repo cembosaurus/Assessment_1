@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\cembo\\source\\repos\\TZ_Limited_TEST\\DataStore.UnitTest\\DataStore.UnitTest.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

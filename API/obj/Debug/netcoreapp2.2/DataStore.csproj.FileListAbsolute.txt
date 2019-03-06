@@ -14,3 +14,4 @@ C:\Users\cembo\source\repos\TZ_Limited_TEST\API\obj\Debug\netcoreapp2.2\DataStor
 C:\Users\cembo\source\repos\TZ_Limited_TEST\API\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
 C:\Users\cembo\source\repos\TZ_Limited_TEST\API\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
 C:\Users\cembo\source\repos\TZ_Limited_TEST\API\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\cembo\source\repos\TZ_Limited_TEST\API\obj\Debug\netcoreapp2.2\DataStore.csprojAssemblyReference.cache
