@@ -19,19 +19,20 @@ namespace DataStore.UnitTest.Data
     {
 
         private Mock<LockersDTO> _lockers;
+        private Mock<ILockersRepository> _repos;
 
         [SetUp]
         public void SetUp()
         {
             _lockers = new Mock<LockersDTO>();
+            _repos = new Mock<ILockersRepository>();
         }
 
         [Test]
         public void Get_test()
         {
-            var repo = new Mock<ILockersRepository>();
-            repo.Setup(s => s.Lockers()).ReturnsAsync(_lockers.Object);
-            var controller = new LockersController(repo.Object);
+            _repos.Setup(s => s.Lockers()).ReturnsAsync(_lockers.Object);
+            var controller = new LockersController(_repos.Object);
 
             var result = controller.Get();
             var data = result.Result;
