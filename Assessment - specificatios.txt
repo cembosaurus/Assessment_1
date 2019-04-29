@@ -1,0 +1,33 @@
+Assessment:
+
+
+As an enterprise providing IT Solutions, one of the business is to provide an end-to-end Parcel Delivery Management Solution. 
+
+You are required to develop an application in .Net to demonstrate your skills, expertise and depth of your experience in .net technology. The total effort of the whole solution delivery should not be more than two days.  In case you have taken more effort, please provide details of it supporting it so we can consider it in its evaluation.
+
+Your idea, approach, maintainability, knowledge, quality implementation and knowledge in the chosen technology and user friendly UI will score the most 
+
+Terms & Definitions
+Locker: A small lockable compartment, typically as one of a number placed together for public use.
+Locker Bank: A collection of Lockers placed together.
+
+Requirement
+1.	We need to create a data store which supports multiple locations. Each location can have multiple locker banks. And each locker bank can have multiple lockers. Populate this data structure with around 25 records.
+
+For example: Sydney has 2 locker banks cbd_lockerbank_1 & manly_lockerbank_2. Each of these locker banks have multiple lockers L1, L2, L3…
+ 
+2.	Create a mechanism to fetch above records efficiently. Try to call the method using interface.
+
+3.	Create a UI, which renders the information that can represent the data structure in a user-friendly informative manner. The data should be fetched using the methods in #2. Feel free to be innovative in presenting the data.
+
+Instructions
+
+1.	#1 and #2 should use .Net C#. 
+2.	#3 For UI can use either Web UI or a desktop UI using any .Net technology including JavaScript. It is all about how well you can present the data using your area of expertise. 
+3.	Include a short write up supporting your approaches and technologies used.
+4.	We need the whole project that we can build using Microsoft Visual Studio.
+5.	Maximum turnaround time is a week.
+
+Technologies you can use but not limited to
+Unit Testing depending on solution
+.Net C#, LINQ, WCF, Web API, MVC, SQL Server, WPF, Win Form, JavaScript, Angular, Microsoft  Azure, Octopus etc.
